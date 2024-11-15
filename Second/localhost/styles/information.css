@@ -1,0 +1,47 @@
+body
+{
+    background-color: burlywood;              /* Цвет фона */
+    display: flex;                              /* Включаем Flexbox для body */
+    flex-direction: column;                     /* Выравнивание элементов по вертикали */
+    align-items: center;                        /* Центрирование по горизонтали */
+    justify-content: center;                /* Вертикаль */
+    min-height: 100vh;                          /* Минимальная высота body 100% от высоты окна */
+    margin: 0;                                  /* Убираем отступы по умолчанию */
+    padding: 20px;                              /* Задаем отступы вокруг содержимого body */
+}
+
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;  /* Шрифт */
+}
+
+form
+{
+    border: 1px solid #ccc;                   /* Обводка для видимости */
+    padding: 15px;                              /* Внутренние отступы */
+    border-radius: 20px;                        /* Закругленные углы */
+    background-color:cornflowerblue;          /* Цвет фона */
+}
+.forForm
+{
+    width: min-content;                         /* Ширина формы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Тень для оформления */
+}
+
+input[type="text"] {
+    border: 1px solid #ccc;                   /* Обводка поля ввода */
+    padding: 10px;                              /* Внутренние отступы поля ввода */
+    border-radius: 5px;                         /* Закругление углов поля ввода */
+    width: 200px;                               /* Ширина поля ввода 100% от родительского контейнера */
+    box-sizing: border-box;                     /* Учитываем внутренние отступы в общей ширине */
+    margin: 5px;                                /* Отступы от элемента */
+}
+.forButtomInForm{
+    padding: 10px 15px;                         /* Внутренние отступы для кнопки */
+    background-color: #007BFF;                /* Цвет фона кнопки */
+    color: #fff;                              /* Цвет текста кнопки */
+    border: none;                               /* Убираем рамку */
+    border-radius: 5px;                         /* Закругленные углы */
+    cursor: pointer;                            /* Курсор при наведении */
+    margin: 5px;                                /* Отступы от элемента */
+}
